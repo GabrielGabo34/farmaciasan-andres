@@ -1,0 +1,301 @@
+
+body{
+    margin: 0 auto;
+}
+header{
+    background-image:linear-gradient(0deg, rgba(0, 0, 0, 0.301), rgba(0, 0, 0, 0.349)), url("Imagenes/Fondo.jpg");
+    background-size: 85em;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.cont{
+    text-align: center;
+}
+
+.cont h1{
+    color: rgb(204, 247, 218);
+    margin: 0.3em;
+    font-family: 'Lobster', cursive;
+    font-size: 4em;
+}
+
+.cont h2{
+    color: rgb(240, 253, 218);
+    margin: 0.3em;
+    font-family: 'Dancing Script', cursive;
+    font-size: 3em;
+}
+
+section{
+    margin: 0;
+    background-color: #588b8b;
+    padding: 3%;
+}
+img{
+    width: 100%;
+}
+.cont1{
+    position: relative;
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.item{
+    position: relative;
+    width: 320px;
+    padding: 40px 40px 40px;
+}
+
+.item h2{
+    color:black;
+    font-family: 'Playfair Display', serif;
+    font-size: 3em;
+}
+
+.item h3{
+    color:black;
+    margin: 0;
+    font-family: 'Lobster', cursive;
+    font-size: 2em;
+}
+
+.item p{
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 1.5em;
+}
+
+.sec{
+    margin: 0;
+    background-color:white;
+    background-size: 100em;
+    width: auto;
+    height: auto;
+}
+
+.item2{
+    padding: 15px;
+    position: relative;
+    text-align: center;
+}
+
+.item2 h2{
+    color: black;
+    margin: 0.3em;
+    font-family: 'Playball', cursive;
+    font-size: 3em;
+}
+
+.exp{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 2em;
+}
+
+.up2{
+    color: black;
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.2em;
+    justify-content: space-around;
+}
+
+.up{
+    color: black;
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.8em;
+}
+
+.img1{
+    width: 300px;
+    height: 350px;
+}
+
+.up{
+    font-family: 'Lobster', cursive;
+}
+
+.icon{
+    width: 18px;
+    height: 18px;
+}
+
+.cont3{
+    margin: 0;
+    background-color: #c5c3c6;
+    padding: 3%;
+    text-align: center;
+}
+.cont3 p{
+    color: black;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 1em;
+}
+
+.conte{
+    margin: 0;
+    background-color: #c5c3c6;
+    padding: 3%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.item4{
+    position: relative;
+    width: 420px;
+    padding: 40px 40px 40px;
+}
+
+button {
+    position:sticky;
+    transform: none;
+   }
+   
+   button {
+    background: none;
+    color: #ccc;
+    width: 240px;
+    height: 80px;
+    border: 1px solid #05f0d0;
+    font-size: 25px;
+    border-radius: 45px;
+    transition: .6s;
+    overflow: hidden;
+   }
+   
+   button:focus {
+    outline: none;
+   }
+   
+   button:before {
+       content: '';
+       display: block;
+       position: absolute;
+       background: rgba(255,255,255,.5);
+       width: 60px;
+       height: 100%;
+       left: 0;
+       top: 0;
+       opacity: .5;
+       filter: blur(30px);
+       transform: translateX(-130px) skewX(-15deg);
+   }
+   
+   button:after {
+       content: '';
+       display: block;
+       position: absolute;
+       background: rgba(255,255,255,.2);
+       width: 30px;
+       height: 100%;
+       left: 30px;
+       top: 0;
+       opacity: 0;
+       filter: blur(30px);
+       transform: translateX(-100px) scaleX(-15deg);
+   }
+   
+   button:hover {
+      color: rgb(122, 238, 13);
+      background: #b708ce;
+      cursor: pointer;
+   }
+   
+   button:hover:before {
+    transform: translateX(300px) skewX(-15deg);
+    opacity: .6;
+    transition: .7s;
+   }
+   
+   button:hover:after {
+    transform: translateX(300px) skewX(-15deg);
+    opacity: 1;
+    transition: .7s;
+}
+
+.item2 button {
+    position:sticky;
+    transform: translate(-50, -50);
+   }
+   
+   .item2 button {
+    background: none;
+    color: #143642;
+    width: 240px;
+    height: 80px;
+    border: 1px solid #05f0d0;
+    font-size: 25px;
+    border-radius: 45px;
+    transition: .6s;
+    overflow: hidden;
+   }
+   
+   .item2 button:focus {
+    outline: none;
+   }
+   
+   .item2 button:before {
+       content: '';
+       display: block;
+       position: absolute;
+       background: rgba(1, 77, 80, 0.5);
+       width: 60px;
+       height: 100%;
+       left: 0;
+       top: 0;
+       opacity: .5;
+       filter: blur(30px);
+       transform: translateX(-130px) skewX(-15deg);
+   }
+   
+   .item2 button:after {
+       content: '';
+       display: block;
+       position: absolute;
+       background: rgba(168, 1, 1, 0.2);
+       width: 30px;
+       height: 100%;
+       left: 30px;
+       top: 0;
+       opacity: 0;
+       filter: blur(30px);
+       transform: translateX(-100px) scaleX(-15deg);
+   }
+   
+   .item2 button:hover {
+      background: #b708ce;
+      cursor: pointer;
+      color: rgb(122, 238, 13);
+   }
+   
+   .item2 button:hover:before {
+    transform: translateX(300px) skewX(-15deg);
+    opacity: .6;
+    transition: .7s;
+   }
+   
+   .item2 button:hover:after {
+    transform: translateX(300px) skewX(-15deg);
+    opacity: 1;
+    transition: .7s;
+}
+
+@media (max-width: 800px){
+    .cont{
+        width: 100%;
+    }
+    .cont1{
+        width: 100%;
+    }
+    .cont3{
+        width: 100%;
+    }
+    .conte{
+        width: 100%;
+    }
+}

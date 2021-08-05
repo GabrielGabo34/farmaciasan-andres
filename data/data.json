@@ -1,0 +1,17 @@
+[
+    {
+        "title": "Condones Five Original",
+        "imag":"Imagenes/condones.jpg",
+        "description": "$2,60"
+    },
+    {
+        "title": "Cita-C MK",
+        "imag":"Imagenes/vitaC.jpg",
+        "description": "$2,25"
+    },
+    {
+        "title": "Pañales Huggies",
+        "imag":"Imagenes/pañales.jpg",
+        "description": "$6,00"
+    }
+]
